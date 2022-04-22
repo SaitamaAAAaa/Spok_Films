@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(202, 202, 202);
+}
+#sidebar {
+  background: rgb(53, 55, 63);
+  border-right: 4px solid #e0e5ea;
+}
+#sidebar ul li:first-child {
+  color: white;
+}
+#sidebar ul li:not(:first-child) {
+  color: white;
+}
+#sidebar ul li a {
+  color: #dfe5eb;
+}
+#sidebar ul li a:hover {
+  color: #59e9df;
+}
+#sidebar .toggle-btn {
+  background: #e0e5ea;
+}
+#sidebar .toggle-btn:hover {
+  background: #556270;
+}
+#sidebar .toggle-btn:hover span {
+  background: #fafafa;
+}
+#sidebar .toggle-btn span {
+  background-color: #666;
+}
+#h1 {
+  color: rgb(80, 80, 80);
+}
